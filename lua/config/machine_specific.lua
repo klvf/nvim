@@ -1,5 +1,5 @@
 vim.g.snips_auth = 'zhou feng'
-vim.g.python3_host_prog = '/Library/Frameworks/Python.Framework/Versions'
+vim.g.python3_host_prog = '/usr/local/bin/python3'
 
 vim.g.mkdp_browser = 'edge'
 vim.g.mkdp_browserfunc = 'open '

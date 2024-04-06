@@ -17,4 +17,8 @@ require("lazy").setup({
     -- require("config.plugins.winbar"),
     require("config.plugins.yank"),
     require("config.plugins.treesitter"),
+    require("config.plugins.wilder"),
+    require("config.plugins.snippets"),
+    require("config.plugins.lspconfig").config,
+    require("config.plugins.debugger"),
 }, {})
