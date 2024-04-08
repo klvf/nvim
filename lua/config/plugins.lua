@@ -21,4 +21,5 @@ require("lazy").setup({
     require("config.plugins.snippets"),
     require("config.plugins.lspconfig").config,
     require("config.plugins.debugger"),
+    require("config.plugins.autocomplete").config,
 }, {})
